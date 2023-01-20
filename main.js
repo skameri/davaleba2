@@ -10,7 +10,7 @@ let numbers  = [
 
 ]
 
-let number = toDoList.length
+let number = 0
 
 function render(){
     toDoList.forEach(element =>{
@@ -65,7 +65,6 @@ function remove(){
     }
 
 }
-
 
 
 
