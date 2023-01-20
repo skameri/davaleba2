@@ -13,11 +13,11 @@ let numbers  = [
 let number = 0
 
 function render(){
-    toDoList.forEach(element =>{
+    toDoList.forEach(gurami =>{
         let object = {
 
-            id: element.id,
-            todo: element.todo,
+            id: gurami.id,
+            todo: gurami.todo,
            };
     
            let li = document.createElement("li")
